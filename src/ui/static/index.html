@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OPGen</title>
+	    <link href="./css/style.css" rel="stylesheet" />
+	    <link href="./css/jQueryFileTree.css" rel="stylesheet" />
+	    <meta charset=utf-8 />
+	    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+	    <script src="./js/jquery.min.js"></script>
+	    <script src="./js/cytoscape.min.js"></script>
+	    <script src="./js/libs.js"></script>
+      <script src="./js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+      <script src="./js/jQueryFileTree.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<script>
+		function showFilename(obj) {
+			let name = obj.value.split("\\").pop();
+			document.getElementById("show-filename").textContent = name;
+		}
+	</script>
+	<body>
+    <div id="context-menu">
+      <div class="item" onclick="set_as_entrance()">set as entrance</div>
+      <div class="item" onclick="mark_tainted()">mark tainted</div>
+    </div>
+		<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+    <div id="filetree"></div>
+		<div class="container">
+			<div class="container-item-left">
+				<div class="form-container">
+					<form id="uploadfile" method="post" enctype="multipart/form-data" target="dummyframe">
+						<div id="uploaditems" class="form-item">
+							<input type="file" id="file" name="file" onchange="showFilename(this)">
+							<label for="file" class="file-label">Choose zip file to upload</label>
+							<span id="show-filename">No File Selected</span>
+              <button class="btn" onclick="upload_file()">Upload</button>
+              <div id="entrance-file"></div>
+						</div>
+					</form>
+					<form id="options">
+						<div class="form-item">
+							<input type="radio" id="oc" name="vul_type" value="os_command">
+							<label for="oc">Command Injection</label>
+							<input type="radio" id="pp" name="vul_type" value="proto_pollution">
+							<label for="pp">Prototype Pollution</label>
+							<input type="radio" id="ipt" name="vul_type" value="ipt">
+							<label for="ipt">Internal Property Tampering</label>
+							<input type="radio" id="pt" name="vul_type" value="path_traversal">
+							<label for="pt">Path Traversal</label>
+						</div>
+						<div class="form-item">
+							<input type="checkbox" id="module" name="module" value="module" checked>
+							<label for="module">Module</label>
+							<input type="checkbox" id="babel" name="babel" value="babel">
+							<label for="module">Use Babel</label>
+							<input type="checkbox" id="e" name="no_file_based" value="no_file_based">
+							<label for="e">End to End Only</label>
+							<input type="checkbox" id="f" name="exit_when_found" value="1" checked>
+							<label for="f">Exit When Detected</label>
+							<input type="checkbox" id="ra" name="run_all" value="run_all" checked>
+              <label for="ra">Run Exported Functions</label><br>
+							<input type="checkbox" id="pa" name="print_all" value="print_all" checked>
+							<label for="pa">Print Unexploitable Paths</label>
+              <label for='sf'>Add Sink Functions</label>
+              <input type="text" id="sf" name="sink_funcs">
+              <label for='st'>Set Timeout(seconds)</label>
+              <input type="text" id="st" name="timeout" size=4>
+						</div>
+					</form>
+          <div id="start-container" class="form-item">
+            <button class="btn" id="submit" onclick="start_check()">Start</button>
+            <!--<button class="btn" id="clear">Clear</button>-->
+            <label for="progress">Progress:</label>
+            <progress id="progress" value="0" max="100"> 0% </progress>
+          </div>
+        </div>
+        <div>
+          <div id="editor-title" class="editor-title">Editor:</div>
+        </div>
+        <div id="editor-container" class="editor-container">
+          <div id="filetree-container" class="filetree-container">
+          <button onclick="load_file_tree()">Reload</button>
+          <button onclick="set_entrance_file()">Set As Entrance</button>
+          </div>
+          <div id="text-container" class="text-container">
+            <div id="editor" class="editor-display">
+            </div>
+            <script>
+              setup_editor();
+            </script>
+          </div>
+        </div>
+      </div>
+      <div class="container-item-right">
+        <div class="result-container">
+          <div class="result-title">Results:</div>
+          <ul class="legend">
+            <li><span class="blue"></span>Polluted Built-in Prototype</li>
+            <li><span class="red"></span>Dataflow of Assigned Value</li>
+            <li><span class="green"></span>Dataflow of Object Property</li>
+            <li><span class="yellow"></span>Dataflow of Unexploitable Path</li>
+          </ul>
+          <div id="cy" class="result-display"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

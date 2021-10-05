@@ -1,0 +1,366 @@
+function _toUnixTimestamp(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function FileWriteStream(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function FileReadStream(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function WriteStream(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function ReadStream(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Stats(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Dirent(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Dir(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function writevSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function writev(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function writeSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function write(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function writeFileSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function writeFile(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function watchFile(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function watch(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function utimesSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function utimes(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function unlinkSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function unlink(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function unwatchFile(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function truncateSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function truncate(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function symlinkSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function symlink(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function statSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function stat(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function rmdirSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function rmdir(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function renameSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function rename(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function realpathSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function realpath(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function readlinkSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function readlink(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function readFileSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function readFile(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function readvSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function readv(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function readSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function read(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function readdirSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function readdir(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function opendirSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function opendir(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function openSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function open(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function mkdtempSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function mkdtemp(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function mkdirSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function mkdir(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function lutimesSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function lutimes(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function lstatSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function lstat(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function linkSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function link(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function lchmodSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function lchmod(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function lchownSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function lchown(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function futimesSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function futimes(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function ftruncateSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function ftruncate(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fsyncSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fsync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fstatSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fstat(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fdatasyncSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fdatasync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fchmodSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fchmod(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fchownSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fchown(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function existsSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function exists(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createWriteStream(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createReadStream(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function copyFileSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function copyFile(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function closeSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function close(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function chmodSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function chmod(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function chownSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function chown(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function accessSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function access(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function appendFileSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function appendFile(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+module.exports = {
+appendFile,
+appendFileSync,
+access,
+accessSync,
+chown,
+chownSync,
+chmod,
+chmodSync,
+close,
+closeSync,
+copyFile,
+copyFileSync,
+createReadStream,
+createWriteStream,
+exists,
+existsSync,
+fchown,
+fchownSync,
+fchmod,
+fchmodSync,
+fdatasync,
+fdatasyncSync,
+fstat,
+fstatSync,
+fsync,
+fsyncSync,
+ftruncate,
+ftruncateSync,
+futimes,
+futimesSync,
+lchown,
+lchownSync,
+lchmod,
+lchmodSync,
+link,
+linkSync,
+lstat,
+lstatSync,
+lutimes,
+lutimesSync,
+mkdir,
+mkdirSync,
+mkdtemp,
+mkdtempSync,
+open,
+openSync,
+opendir,
+opendirSync,
+readdir,
+readdirSync,
+read,
+readSync,
+readv,
+readvSync,
+readFile,
+readFileSync,
+readlink,
+readlinkSync,
+realpath,
+realpathSync,
+rename,
+renameSync,
+rmdir,
+rmdirSync,
+stat,
+statSync,
+symlink,
+symlinkSync,
+truncate,
+truncateSync,
+unwatchFile,
+unlink,
+unlinkSync,
+utimes,
+utimesSync,
+watch,
+watchFile,
+writeFile,
+writeFileSync,
+write,
+writeSync,
+writev,
+writevSync,
+Dir,
+Dirent,
+Stats,
+ReadStream,
+WriteStream,
+FileReadStream,
+FileWriteStream,
+_toUnixTimestamp
+}

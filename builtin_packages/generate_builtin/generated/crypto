@@ -1,0 +1,202 @@
+function Verify(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Sign(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function KeyObject(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Hmac(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Hash(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function ECDH(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function DiffieHellmanGroup(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function DiffieHellman(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Decipheriv(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Decipher(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Cipheriv(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Cipher(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Certificate(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function verify(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function setFips(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function getFips(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function timingSafeEqual(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function setEngine(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function sign(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function scryptSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function scrypt(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function randomInt(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function randomFillSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function randomFill(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function randomBytes(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function publicEncrypt(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function publicDecrypt(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function privateEncrypt(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function privateDecrypt(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function generateKeyPairSync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function generateKeyPair(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function pbkdf2Sync(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function pbkdf2(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function getHashes(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function getDiffieHellman(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function getCurves(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function getCiphers(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function diffieHellman(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createVerify(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createSign(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createSecretKey(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createPublicKey(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createPrivateKey(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createHmac(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createHash(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createECDH(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createDiffieHellmanGroup(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createDiffieHellman(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createDecipheriv(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createCipheriv(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+module.exports = {
+createCipheriv,
+createDecipheriv,
+createDiffieHellman,
+createDiffieHellmanGroup,
+createECDH,
+createHash,
+createHmac,
+createPrivateKey,
+createPublicKey,
+createSecretKey,
+createSign,
+createVerify,
+diffieHellman,
+getCiphers,
+getCurves,
+getDiffieHellman,
+getHashes,
+pbkdf2,
+pbkdf2Sync,
+generateKeyPair,
+generateKeyPairSync,
+privateDecrypt,
+privateEncrypt,
+publicDecrypt,
+publicEncrypt,
+randomBytes,
+randomFill,
+randomFillSync,
+randomInt,
+scrypt,
+scryptSync,
+sign,
+setEngine,
+timingSafeEqual,
+getFips,
+setFips,
+verify,
+Certificate,
+Cipher,
+Cipheriv,
+Decipher,
+Decipheriv,
+DiffieHellman,
+DiffieHellmanGroup,
+ECDH,
+Hash,
+Hmac,
+KeyObject,
+Sign,
+Verify
+}

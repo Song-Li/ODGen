@@ -1,0 +1,78 @@
+function eventNames(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function listenerCount(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function rawListeners(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function listeners(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function removeAllListeners(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function off(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function removeListener(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function prependOnceListener(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function once(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function prependListener(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function on(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function addListener(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function emit(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function getMaxListeners(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function setMaxListeners(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function disconnect(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function fork(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function setupMaster(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Worker(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+module.exports = {
+Worker,
+setupMaster,
+fork,
+disconnect,
+setMaxListeners,
+getMaxListeners,
+emit,
+addListener,
+on,
+prependListener,
+once,
+prependOnceListener,
+removeListener,
+off,
+removeAllListeners,
+listeners,
+rawListeners,
+listenerCount,
+eventNames
+}

@@ -1,0 +1,22 @@
+function request(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function get(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function createServer(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Server(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function Agent(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+module.exports = {
+Agent,
+Server,
+createServer,
+get,
+request
+}

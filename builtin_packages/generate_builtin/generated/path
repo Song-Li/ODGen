@@ -1,0 +1,50 @@
+function _makeLong(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function parse(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function format(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function extname(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function basename(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function dirname(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function toNamespacedPath(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function relative(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function join(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function isAbsolute(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function normalize(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+function resolve(arg1, arg2, arg3, arg4, arg5, arg6) {
+	return arg1 + arg2 + arg3 + arg4 + arg5 + arg6;
+}
+module.exports = {
+resolve,
+normalize,
+isAbsolute,
+join,
+relative,
+toNamespacedPath,
+dirname,
+basename,
+extname,
+format,
+parse,
+_makeLong
+}

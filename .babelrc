@@ -1,0 +1,17 @@
+{
+    "presets": [
+        ["@babel/preset-typescript"],
+        // no targets are specified: preset-env will  
+        // transform all ES2015-ES2020 code to be ES5 compatible.
+        ["@babel/preset-env",  { "loose": true }] 
+    ],
+    "plugins": [
+        ["@babel/plugin-transform-typescript", {
+            "allowNamespaces": true,
+            "allowDeclareFields": true
+        }],
+        ["@babel/plugin-proposal-class-properties", {"loose": true }],
+        ["./src/plugins/others/babel-custom-plugins/babel-plugin-myPlugin.js"], 
+        ["./src/plugins/others/babel-custom-plugins/babel-plugin-optimise-interop.js", {"checkDefault": false}]
+    ]
+}

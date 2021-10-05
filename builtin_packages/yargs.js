@@ -1,0 +1,3 @@
+exports.argv = {
+  '_': 'res';
+}

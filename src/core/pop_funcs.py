@@ -1,0 +1,18 @@
+pop_funcs = [
+        "merge_recursive",
+        "extend_recursive",
+        "getAndCreate",
+        "getAndSet",
+        "mergeObjects",
+        "mergeConfig",
+        "mergeDeep",
+        "deepCopy",
+        "setValue",
+        "deepSet",
+        "setPath",
+        "extend",
+        "merge",
+        "put",
+        "set",
+        'create',
+        ]

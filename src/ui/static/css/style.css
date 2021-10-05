@@ -1,0 +1,233 @@
+#cy {
+  display: block;
+  background-color: #fff;
+}
+
+.text-ace{
+  position: absolute;
+  background: red;
+  opacity: 20%;
+}
+
+.text-ace:hover::after{
+  position: absolute;
+	left: 15px;
+	top: 5px;
+	padding: 5px;
+	background-color: #0095ff;
+	border-radius: 5px;
+	color: #fff;
+	content: "Marked as a tained-variable!";
+	z-index: 2;
+	width: 120px;
+}
+
+#context-menu {
+  position: fixed;
+  z-index: 10000;
+  width: 150px;
+  background: #1b1a1a;
+  border-radius: 5px;
+  transform: scale(0);
+  transform-origin: top left;
+}
+
+#context-menu.visible {
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+}
+
+#context-menu .item {
+  padding: 8px 10px;
+  font-size: 15px;
+  color: #eee;
+  cursor: pointer;
+  border-radius: inherit;
+}
+
+#context-menu .item:hover {
+  background: #343434;
+}
+
+#editor1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* basic positioning */
+.legend { list-style: none; }
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 0px solid #ccc; float: left; width: 50px; height: 2px; margin: 6px; }
+/* your colors */
+.legend .blue{ background-color: #00f; }
+.legend .red{ background-color: #f00; }
+.legend .green{ background-color: #0f0; }
+.legend .yellow{ background-color: #ff0; }
+
+.myMarker {
+  position:absolute;
+  background:rgba(200,200,100,0.5);
+  z-index:20
+}
+.container {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+.container-item-left {
+  flex: 50%;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.container-item-right {
+  flex: 50%;
+  padding-left: 10px;
+}
+.filetree-container {
+  float: left;
+  width: 20%;
+  border: 1px solid grey;
+  height: 100%;
+  overflow: scroll;
+  background-color: #EEE;
+}
+.text-container {
+  float: right;
+  width: 80%;
+  height: 100%;
+}
+.form-container {
+  flex: 20%;
+  padding: 5px;
+  font-size: 12px;
+}
+.form-item {
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+#show-filename {
+  margin-right: 15px;
+}
+
+.show-error {
+  color: red;
+}
+
+.editor-container {
+  overflow: scroll;
+  flex: 90%;
+  padding: 5px;
+  display: flex;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.editor-title {
+  flex: 5%;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding-left: 2px;
+}
+.editor-display {
+  flex: 95%;
+  height: 100%;
+  border: 1px solid grey;
+  font-size: 15px;
+}
+.result-container {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  height:100%;
+}
+.result-title {
+  flex: 4%;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding-left: 2px;
+}
+.result-display {
+  flex: 96%;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #f0f2f7;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-size: 15px;
+}
+.img {
+  width: 30px;
+  height: 30px;
+}
+.show-error {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.btn {
+  cursor: pointer;
+  padding: 10px 20px 10px;
+  margin-right: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: #e3e3e3;
+  font-size: 13px;
+}
+.btn:hover {
+  background-color: #d6d6d6;
+}
+.btn:active {
+  background-color: #d6d6d6;
+  transform: translateY(3px);
+}
+.file-label {
+  cursor: pointer;
+  padding: 10px 20px 10px;
+  margin-right: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: #e3e3e3;
+}
+.file-label:hover {
+  background-color: #d6d6d6;
+}
+label {
+  cursor: pointer;
+  margin-right: 10px;
+}
+input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+input[type="radio"] {
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  cursor: pointer;
+  margin: 5px;
+}
+input[type="checkbox"]{
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  cursor: pointer;
+  margin: 5px;
+}
