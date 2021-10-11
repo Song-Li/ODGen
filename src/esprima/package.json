@@ -1,0 +1,17 @@
+{
+  "name": "esprima-csv",
+  "version": "0.11.1",
+  "description": "A tool that generates JavaScript AST as CSVs",
+  "main": "main.js",
+  "dependencies": {
+    "ansicolor": "^1.1.84",
+    "commander": "^3.0.2",
+    "esprima": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./main.js test1.js"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
