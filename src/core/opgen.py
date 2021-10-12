@@ -264,11 +264,13 @@ class OPGen:
             with open(options.list, 'r') as fp:
                 for line in fp.readlines():
                     package_path = line.strip()
+                    package_path = os.path.expanduser(package_path)
                     package_list.append(package_path)
 
             for package_path in package_list:
                 # init a new graph
                 self.get_new_graph(package_name=package_path)
+                #self.test_module(package_path, options.vul_type, self.graph, timeout_s=timeout_s)
                 self.test_nodejs_package(package_path, 
                         options.vul_type, self.graph, timeout_s=timeout_s)
 
