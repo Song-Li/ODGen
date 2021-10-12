@@ -17,7 +17,7 @@ We provide three methods for testing:
 Address: 128.220.247.60
 Port: 40022
 Username: guest
-Password: yfeBG83%5wlO
+Password: **included in the reviewer's page**
 
 ssh guest@128.220.247.60 -p 40022
 ```
