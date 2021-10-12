@@ -398,6 +398,37 @@ def print_success_pathes(G, success_pathes, color=None):
         sty_color = color_map[color]
     else:
         sty_color = color
+
+    if len(success_pathes):
+        loggers.print_logger.info(f"{sty_color}|Checker| success: {success_pathes} color: {color}{sty.rs.all}")
+
+    path_id = 0
+    for path in used_pathes:
+        if len(path) == 0:
+            continue
+        res_text_path = get_path_text(G, path, path[0])
+        loggers.tmp_res_logger.info("|checker| success id${}$color:{}$: ".format(path_id, color))
+        loggers.tmp_res_logger.info(res_text_path)
+        loggers.print_logger.info(f"{sty_color}Attack Path: ")
+        loggers.print_logger.info(f'{res_text_path} {sty.rs.all}')
+
+        path_id += 1
+        
+        """
+    if options.more_output:
+        used_pathes = [old_extend_ast_list(G, sp) for sp in success_pathes]
+    else:
+        used_pathes = success_pathes
+    color_map = {
+            'green': sty.fg.li_green,
+            'red': sty.fg.li_red,
+            'blue': sty.fg.li_blue,
+            'yellow': sty.fg.li_yellow
+            }
+    if color in color_map:
+        sty_color = color_map[color]
+    else:
+        sty_color = color
     print(sty_color + "|Checker| success: ", success_pathes ,"color: ", color)
     path_id = 0
     for path in used_pathes:
@@ -411,3 +442,4 @@ def print_success_pathes(G, success_pathes, color=None):
         print(res_text_path)
     print(sty.rs.all)
 
+        """

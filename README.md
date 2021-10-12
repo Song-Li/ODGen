@@ -48,7 +48,7 @@ $ python3 ./odgen.py ./tests/packages/command_injection/os_command.js -m -a -q -
 Or to analyze a Node.js package, you can run a command like:
 
 ```shell
-$ python3 ./odgen.py ./tests/packages/prototype_pollution/set-value -maq -t proto_pollution
+$ python3 ./odgen.py ./tests/packages/prototype_pollution/confucious@0.0.12 -maq -t proto_pollution
 ```
 
 We also create a sample module with a prototype pollution vulnerability. You can test it by running:
