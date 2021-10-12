@@ -1,8 +1,6 @@
 # ODGen
 ODGen is a tool to detect vulnerabilities in Node.js packages. This project is written in Python and JavaScript and the source code is included in the repository. 
 
-In this 
-
 ## Installation
 Please check out [INSTALL.md](./INSTALL.md) for the detailed instruction of the installation.
 
@@ -11,8 +9,7 @@ Use the following arugments to run the tool:
 
 ```bash
 python3 odgen.py	[-h] [-p] [-m] [-q] [-s] [-a] [--timeout TIMEOUT] [-l LIST] [--install] 
-		[--max-rep MAX_REP] [--no-prioritized-funcs] [--nodejs] 
-		[--entrance-func ENTRANCE_FUNC] [--pre-timeout PRE_TIMEOUT]
+		[--max-rep MAX_REP] [--nodejs] [--pre-timeout PRE_TIMEOUT]
 		[--max-file-stack MAX_FILE_STACK] [--skip-func SKIP_FUNC] [--run-env RUN_ENV] 
 		[--no-file-based] [--parallel PARALLEL] [input_file]
 ```
@@ -20,7 +17,7 @@ python3 odgen.py	[-h] [-p] [-m] [-q] [-s] [-a] [--timeout TIMEOUT] [-l LIST] [--
 | Argument | Description |
 | -------- | ----------- |
 | `input_file` | The path to the input file. It can be a Node.js package directory or a JavaScript file |
-| `-t VUL_TYPE, --vul-type VUL_TYPE` | Set the vulneralbility type, for now, it can be "os\_command", "proto\_pollution", "ipt", "xss" and "path\_traversal"|
+| `-t VUL_TYPE, --vul-type VUL_TYPE` | Set the vulneralbility type, for now, it can be "os\_command", "code\_exec", "proto\_pollution", "ipt", "xss" and "path\_traversal"|
 | `-p, --print` | Print logs to console, instead of files. |
 | `-m, --module` | Module mode. Indicate the input is a module, instead of a script. |
 | `-q, --exit` | Exit the analysis immediately when vulnerability is found. Do not use this if you need a complete graph. |

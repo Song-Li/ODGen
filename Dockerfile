@@ -7,3 +7,6 @@ WORKDIR /app
 RUN apt-get update 
 RUN apt-get install npm -y
 RUN ./install.sh
+
+# EXPOSE 9870
+# CMD ["python", "./start_server.py"]
