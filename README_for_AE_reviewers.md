@@ -115,6 +115,8 @@ Note that the scripts will try to run our tool parallelly, so you will not see t
 ### Expected Results
 The testing results are located in the "**logs**" folder of the running directory. All the detected vulnerable packages will be output to the "**succ.log**" file; All the un-detected packages will be output to the "**results.log**" file. You can get the number of the successfully detected packages by running ``cat ./logs/succ.log | wc -l``, during or after the running process.
 
+If you finished checking one vulnerability type, please run ``./clean.sh`` to remove the logs and temporary files before checking another one.
+
 Note that since the order of the testing functions is randomized, you may encounter some un-detected packages. For the un-detected packages, you may run them independently follow the instructions in README.md, or, go to "~/packages/vulneralbility-type/package-name@version/" and run the "run.sh"
 
 The number of all the packages, unpublished packages, expected detected packages and the estimated running time are listed below:
