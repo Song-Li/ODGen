@@ -22,16 +22,18 @@ Password: **included in the reviewer's page**
 ssh guest@128.220.247.60 -p 40022
 ```
 - A docker image --
-The docker image locates in the home directory of the guest user named "ODGen.tar". You can download and load it by:
+
+We uploaded our docker to Docker Hub. You can pull it by running 
 
 ```
-docker load < ODGen.tar
+docker pull iamthesong/odgen:latest
 ```
 Then you can attach to this docker by running
 
 ```
-docker run -it odgen bash
+docker run -it iamthesong/odgen bash
 ```
+
 After loading it, you should be able to see the same environment with the virtual machine
 
 - A repository for the source code
