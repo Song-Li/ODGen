@@ -1,5 +1,11 @@
-# README
+# README FOR REVIEWERS
 Thank you for reviewing our artifact! We are applying for the **Artifacts Available, Artifacts Functional** and **Results Reproduced** badges.
+
+## Estimated Time
+- Environment setup: 10 mins
+- Play with the examples: 10 mins
+- Reproduce the result: 35 mins
+
 
 ## Access our Artifact
 
@@ -31,6 +37,7 @@ After loading it, you should be able to see the same environment with the virtua
 - A repository for the source code
 
 If you are not able to access the virtual machine and can not load the docker image, you can also try to clone our source code from the [repository](https://github.com/Song-Li/ODGen) and follow the instructions in the README.md to set up the environment.
+
  
 ## File Organization of Our Virtual Machine
 
@@ -59,6 +66,8 @@ Once you log into the virtual machine, all the files and folders are organized a
 |--back_up: recovery files (do not touch)
 ```
 
+## Play With the Examples
+In the **~/examples** folder, we have a few simple vulnerable examples for you to get familiar with our tool. You can try the **run\_ipt.sh,  run\_os\_command.sh** or **run\_proto\_pollution.sh** to run our tool on top of the **pp\_example.js**(a prototype pollution) example and the **motivating_example.js**(the motivating example introduced in our paper). You can also write your modules, use a similar command and test them out. 
 
 ## Artifacts Available
 Our tool is been made permanently available for retrieval. The source code will be stored and maintained in the [repository](https://github.com/Song-Li/ODGen). The license of the source code is GPL-2.0.
@@ -73,7 +82,7 @@ Our tool is an implementation of the paper, it's directly related to the paper a
 
 
 ### Exercisability: do the submitted artifacts include the scripts and data needed to run the experiments described in the paper, and can the software be successfully executed?
-Our tool is exercisable. We provide the main entrance of the package together with a list of scripts that can install the requirements and run the verifications.
+Our tool is exercisable. We provide the main entrance of the package together with a list of scripts that can install the requirements and run the verifications. We also kindly include the motivating example of the paper and the related scripts in the **~/example** directory for you to test it out. 
 
 ## Results Reproduced
 As we claimed in the **Abstract** section and the **Contributions** part of section 1, our main claim that needed to be evaluated is that we found 43 application-level and 137 package-level zero-day vulnerabilities. We prepared the dataset and the related scripts to run our tool on top of the packages. 
