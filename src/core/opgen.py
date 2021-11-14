@@ -124,6 +124,8 @@ class OPGen:
             G = self.graph
 
         test_res = []
+        # only consider the finished packages
+        output_code_coverage = True 
         module_timedout = True 
         single_mode_tried = False
         while(module_timedout):
@@ -140,8 +142,11 @@ class OPGen:
             G = self.get_new_graph(package_name=module_path)
             internal_plugins = PluginManager(G, init=True)
             js_call_templete = "var main_func=require('{}');".format(module_path)
-
-            parse_string(G, js_call_templete)
+            
+            try:
+                parse_string(G, js_call_templete)
+            except:
+                return []
 
             if timeout_s is not None:
                 try:
@@ -149,6 +154,7 @@ class OPGen:
                 except FunctionTimedOut:
                     error_msg = "{} timedout after {} seconds".format(module_path, timeout_s)
                     module_timedout = True
+                    output_code_coverage = False
                     loggers.error_logger.error(error_msg)
                     #loggers.res_logger.error(error_msg)
             else:
@@ -169,6 +175,14 @@ class OPGen:
         if module_timedout:
             error_msg = "{} timedout after {} seconds".format(module_path, timeout_s)
             loggers.res_logger.error(error_msg)
+
+        if output_code_coverage:
+            covered_stat = len(self.graph.get_covered_statements())
+            total_stat = self.graph.get_total_num_statements()
+
+            if total_stat != 0:
+                # should not happen, just in case it is a totally blank package
+                loggers.stat_logger.info(f"{covered_stat / total_stat}")
 
         return test_res
 
@@ -281,6 +295,7 @@ class OPGen:
                 else:
                     loggers.res_logger.info("Not detected in {}".format(
                         package_path))
+
 
         else:
             if options.module:

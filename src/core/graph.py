@@ -1844,6 +1844,21 @@ class Graph:
         """
         return self.covered_stat
 
+    def add_excuted_module_to_statements(self, module_ast):
+        """
+        add a executed module to total number of statements
+        used for adding dynamically added modules
+        """
+        if not module_ast:
+            return 
+
+        all_nodes = self.get_all_child_nodes(module_ast)
+        for n in all_nodes:
+            node_attr = self.get_node_attr(n)
+            if 'type' in node_attr:
+                if self.is_statement(n):
+                    self.all_stat.add(n)
+
     def get_total_num_statements(self):
         """
         return the total number of statements of AST

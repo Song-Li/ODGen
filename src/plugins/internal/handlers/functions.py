@@ -416,6 +416,11 @@ def run_exported_functions(G, module_exports_objs, extra):
 
     while(len(exported_objs) != 0): # BFS
         obj = exported_objs.pop(0) # head object
+
+        # if an exported module is executed, add it to the total number of statements
+        cur_func_ast = G.get_obj_def_ast_node(obj, aim_type='function')
+        G.add_excuted_module_to_statements(cur_func_ast)
+
         cur_obj_name = exported_obj_names.pop(0) # head object name
         prev_exit_node = prev_exit_nodes.pop(0) # previous EXIT node of head
         cur_root = roots.pop(0) # root of head

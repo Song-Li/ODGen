@@ -81,6 +81,7 @@ class Loggers:
             self.error_logger = create_logger("error", file_name=os.path.join(base_location,"error.log"))
             self.res_logger = create_logger("result", file_name=os.path.join(base_location,"results.log"))
             self.succ_logger = create_logger("success", file_name=os.path.join(base_location,"succ.log"))
+            self.stat_logger= create_logger("stat_logger", file_name=os.path.join(base_location,"stat.log"))
             self.detail_logger = create_logger("details", file_name=os.path.join(base_location,"details.log"))
             self.tmp_res_logger = create_logger("result_tmp", file_name=os.path.join(base_location,"results_tmp.log"))
     instance = None
