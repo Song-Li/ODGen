@@ -57,11 +57,12 @@ class HandleArrayElem(Handler):
                 key = wildcard
             handled_value = self.internal_manager.dispatch_node(value_node, self.extra)
             value_objs = to_obj_nodes(self.G, handled_value, self.node_id)
-            # used_objs = list(set(handled_value.used_objs))
+            used_objs = list(set(handled_value.used_objs))
+            used_objs.extend(handled_value.obj_nodes)
             for obj in value_objs:
                 self.G.add_obj_as_prop(key, self.node_id,
                     parent_obj=self.extra.parent_obj, tobe_added_obj=obj)
-        return NodeHandleResult(obj_nodes=value_objs, # used_objs=used_objs,
+        return NodeHandleResult(obj_nodes=value_objs, used_objs=used_objs,
             callback=get_df_callback(self.G))
 
 class HandleUnaryOp(Handler):
