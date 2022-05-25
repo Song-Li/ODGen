@@ -648,7 +648,7 @@ def array_p_join_3(G: Graph, caller_ast, extra, arrays: NodeHandleResult, seps=N
                     _index = int(index)
                 except (ValueError, TypeError) as e:
                     pass
-                if _index is None:
+                if _index is None or _index < 0:
                     wildcard_elems.extend(G.get_objs_by_name_node(index_name_node))
                 else:
                     while len(array_elems) <= _index:
