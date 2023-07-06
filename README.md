@@ -1,5 +1,5 @@
 # ODGen
-ODGen is a tool to detect vulnerabilities in Node.js packages. This project is written in Python and JavaScript and the source code is included in the repository. 
+ODGen is a JavaScript static analysis tool to detect vulnerabilities in Node.js packages. This project is written in Python and JavaScript and the source code is included in the repository. 
 
 ## Hello Reviewers
 If you are the AE reviewer, please come here first! [README\_for\_AE\_reviewers.md](./README_for_AE_reviewers.md)
